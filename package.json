@@ -1,0 +1,30 @@
+{
+  "name": "zhoda",
+  "version": "1.0.0",
+  "description": "Development dependencies for project",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhodamx/zhodamx.github.io.git"
+  },
+  "author": "braden337",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhodamx/zhodamx.github.io/issues"
+  },
+  "homepage": "https://github.com/zhodamx/zhodamx.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.7.13",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2",
+    "normalize.css": "^3.0.3",
+    "q": "^1.4.1"
+  }
+}
