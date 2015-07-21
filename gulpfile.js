@@ -41,7 +41,7 @@ gulp.task('jekyll', ['clean', 'sass'], function () {
 });
 
 // sass task
-gulp.task('sass', ['clean'], function(){
+gulp.task('sass', function(){
   return gulp.src('src/scss/main.scss')
       .pipe(sass({includePaths: neat}).on('error', sass.logError))
       .pipe(gulp.dest('_site/css'))

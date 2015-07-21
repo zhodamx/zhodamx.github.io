@@ -58,7 +58,7 @@
 
 @import '../../node_modules/normalize.css/normalize';
 @import 'bourbon';
-$visual-grid: true;
+//$visual-grid: true;
 @import 'neat';
 
 
@@ -69,7 +69,7 @@ html {
 body {
   background-color: purple;
   @media (min-width: 600px) {
-    background-color: green;
+    background-color: red;
   }
   @include span-columns(12);
   @include shift(0);
