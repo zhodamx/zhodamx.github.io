@@ -1,3 +1,28 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'bourbon';
+$grid-columns: 12;
+$max-width: em(1088);
+$visual-grid: true;
+@import 'neat';
+
+body {
+  @include outer-container;
+  background-color: purple;
+  @media (min-width: 600px) {
+    background-color: rgba(0,160,190,1);
+  }
+}
+
+.page-content {
+  // @include pad(20px);
+  @include span-columns(12);
+  background-color: limegreen;
+  // @include shift(0);
+}
+
+
+
+
 // // ---
 // // # Only the main Sass file needs front matter (the dashes are enough)
 // // ---
@@ -54,23 +79,3 @@
 // body {
 //   // background-color: red;
 // }
-
-
-@import '../../node_modules/normalize.css/normalize';
-@import 'bourbon';
-//$visual-grid: true;
-@import 'neat';
-
-
-html {
-  @include outer-container;
-}
-
-body {
-  background-color: purple;
-  @media (min-width: 600px) {
-    background-color: red;
-  }
-  @include span-columns(12);
-  @include shift(0);
-}
